@@ -493,5 +493,97 @@ body {
 .footer {
     background: #EEEEEE;
     padding-top: 95px;
+    padding-bottom: 45px;
 }
 
+.footer__box {
+    display: flex;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #000000;
+}
+
+.box-footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.footer-section-header {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-section-image {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-section-image:nth-child(2) {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-section-text {
+    font-size: 20px;
+    line-height: 30px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.big {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.column {
+    width: 190px;
+    margin-right: 35px;
+    margin-top: 5px;
+}
+
+.column:last-child {
+    margin-right: 0px;
+}
+
+.footer-section-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-section-link {
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.footer-section-item {
+    margin-bottom: 15px;
+}
+
+.footer__holder {
+    display: flex;
+    padding-top: 50px;
+}
+
+.holder-box {
+    display: flex;
+    align-items: center;
+}
+
+.holder-image {
+    margin-right: 15px;
+}
+
+.holder-text {
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 700px;
+}
+
+.snippet {
+    margin-right: 0px;
+}
